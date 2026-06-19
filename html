@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="AfroTalent — Fully licensed Ethiopian recruitment agency (MoLS License #EG/01234/2012) supplying trained, vetted domestic workers to Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, and Oman." />
+<meta name="keywords" content="Ethiopian domestic workers, house maid recruitment, Middle East employment agency, licensed recruitment agency Ethiopia, GCC domestic workers" />
+<meta name="author" content="AfroTalent PLC" />
+<title>AfroTalent | Fully Licensed Ethiopian Domestic Worker Recruitment Agency</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+/* ---------- Reset & Base ---------- */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --primary:#0b3d91;
+  --primary-dark:#072a66;
+  --accent:#d4a017;
+  --accent-dark:#b8860b;
+  --bg:#ffffff;
+  --bg-alt:#f6f8fc;
+  --text:#1a2238;
+  --text-muted:#5a6478;
+  --border:#e3e8f0;
+  --success:#16a34a;
+  --warning:#f59e0b;
+  --shadow-sm:0 2px 8px rgba(11,61,145,.08);
+  --shadow-md:0 8px 24px rgba(11,61,145,.12);
+  --shadow-lg:0 20px 50px rgba(11,61,145,.18);
+  --radius:12px;
+  --radius-lg:20px;
+  --transition:all .3s cubic-bezier(.4,0,.2,1);
+}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  color:var(--text);background:var(--bg);
+  line-height:1.6;overflow-x:hidden;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+.container{width:100%;max-width:1200px;margin:0 auto;padding:0 1.25rem}
+section{padding:5rem 0}
+h1,h2,h3,h4{font-family:'Playfair Display',serif;line-height:1.2;color:var(--primary-dark)}
+h2{font-size:clamp(1.75rem,4vw,2.5rem);margin-bottom:.75rem}
+h3{font-size:1.25rem;margin-bottom:.5rem}
+.section-head{text-align:center;max-width:700px;margin:0 auto 3rem}
+.section-head .eyebrow{
+  display:inline-block;color:var(--accent-dark);font-weight:600;
+  text-transform:uppercase;letter-spacing:2px;font-size:.8rem;margin-bottom:.75rem;
+}
+.section-head p{color:var(--text-muted);font-size:1.05rem}
+
+/* ---------- Buttons ---------- */
+.btn{
+  display:inline-flex;align-items:center;gap:.5rem;
+  padding:.9rem 1.75rem;border-radius:var(--radius);
+  font-weight:600;font-size:.95rem;transition:var(--transition);
+  cursor:pointer;white-space:nowrap;
+}
+.btn-primary{background:var(--primary);color:#fff;box-shadow:var(--shadow-sm)}
+.btn-primary:hover{background:var(--primary-dark);transform:translateY(-2px);box-shadow:var(--shadow-md)}
+.btn-accent{background:var(--accent);color:#fff;box-shadow:var(--shadow-sm)}
+.btn-accent:hover{background:var(--accent-dark);transform:translateY(-2px)}
+.btn-outline{border:2px solid #fff;color:#fff}
+.btn-outline:hover{background:#fff;color:var(--primary)}
+
+/* ---------- License Banner ---------- */
+.license-banner{
+  background:linear-gradient(135deg,var(--success),#15803d);
+  color:#fff;padding:.75rem 0;text-align:center;font-size:.9rem;font-weight:500;
+}
+.license-banner-inner{display:flex;justify-content:center;align-items:center;gap:1.5rem;flex-wrap:wrap}
+.license-banner .badge-item{display:inline-flex;align-items:center;gap:.4rem}
+.license-banner svg{flex-shrink:0}
+
+/* ---------- Top Bar ---------- */
+.topbar{
+  background:var(--primary-dark);color:#cfd8ea;
+  font-size:.85rem;padding:.5rem 0;
+}
+.topbar-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem}
+.topbar a{transition:var(--transition)}
+.topbar a:hover{color:var(--accent)}
+.topbar-info{display:flex;gap:1.25rem;flex-wrap:wrap}
+.topbar-info span{display:inline-flex;align-items:center;gap:.35rem}
+.topbar-license{
+  background:rgba(212,160,23,.15);padding:.25rem .75rem;border-radius:4px;
+  border:1px solid rgba(212,160,23,.3);font-size:.8rem;color:var(--accent);
+}
+
+/* ---------- Navigation ---------- */
+.nav{
+  position:sticky;top:0;z-index:100;background:#fff;
+  box-shadow:var(--shadow-sm);transition:var(--transition);
+}
+.nav-inner{display:flex;justify-content:space-between;align-items:center;padding:1rem 0}
+.logo{display:flex;align-items:center;gap:.6rem;font-weight:800;font-size:1.25rem;color:var(--primary-dark);font-family:'Playfair Display',serif}
+.logo-mark{
+  width:42px;height:42px;border-radius:10px;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  display:grid;place-items:center;color:#fff;font-weight:800;
+  box-shadow:var(--shadow-sm);
+}
+.nav-links{display:flex;gap:2rem;align-items:center;list-style:none}
+.nav-links a{font-weight:500;font-size:.95rem;position:relative;transition:var(--transition)}
+.nav-links a::after{
+  content:'';position:absolute;left:0;bottom:-6px;
+  width:0;height:2px;background:var(--accent);transition:var(--transition);
+}
+.nav-links a:hover{color:var(--primary)}
+.nav-links a:hover::after{width:100%}
+.nav-cta{display:flex;gap:.75rem;align-items:center}
+.menu-toggle{display:none;width:42px;height:42px;border-radius:8px;align-items:center;justify-content:center;color:var(--primary-dark)}
+.menu-toggle:hover{background:var(--bg-alt)}
+
+/* ---------- Hero ---------- */
+.hero{
+  position:relative;min-height:90vh;display:flex;align-items:center;
+  background:
+    linear-gradient(135deg,rgba(7,42,102,.92),rgba(11,61,145,.75)),
+    url('https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1600&q=80') center/cover;
+  color:#fff;overflow:hidden;
+}
+.hero::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(circle at 80% 20%,rgba(212,160,23,.25),transparent 50%);
+}
+.hero-content{position:relative;z-index:2;max-width:720px}
+.hero .badge{
+  display:inline-flex;align-items:center;gap:.5rem;
+  background:rgba(255,255,255,.12);backdrop-filter:blur(10px);
+  padding:.5rem 1rem;border-radius:50px;font-size:.85rem;
+  border:1px solid rgba(255,255,255,.2);margin-bottom:1.5rem;
+}
+.hero .badge .dot{width:8px;height:8px;border-radius:50%;background:var(--success);box-shadow:0 0 0 4px rgba(22,163,74,.3)}
+.hero h1{
+  color:#fff;font-size:clamp(2rem,5vw,3.5rem);margin-bottom:1.25rem;
+}
+.hero h1 span{color:var(--accent)}
+.hero p{font-size:1.15rem;color:rgba(255,255,255,.9);margin-bottom:2rem;max-width:600px}
+.hero-cta{display:flex;gap:1rem;flex-wrap:wrap}
+.hero-stats{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  gap:1.5rem;margin-top:3.5rem;max-width:600px;
+}
+.hero-stat .num{font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--accent)}
+.hero-stat .lbl{font-size:.85rem;color:rgba(255,255,255,.8);text-transform:uppercase;letter-spacing:1px}
+
+/* ---------- Trust Bar ---------- */
+.trust{background:var(--bg-alt);padding:2rem 0;border-bottom:1px solid var(--border)}
+.trust-inner{display:flex;justify-content:space-around;align-items:center;flex-wrap:wrap;gap:2rem}
+.trust-item{display:flex;align-items:center;gap:.75rem;color:var(--text-muted);font-weight:500;font-size:.9rem}
+.trust-item svg{color:var(--primary);flex-shrink:0}
+
+/* ---------- About ---------- */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
+.about-img{
+  position:relative;border-radius:var(--radius-lg);overflow:hidden;
+  box-shadow:var(--shadow-lg);aspect-ratio:4/5;
+  background:url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80') center/cover;
+}
+.about-img::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(11,61,145,.3),transparent 50%);
+}
+.about-badge{
+  position:absolute;bottom:1.5rem;left:1.5rem;right:1.5rem;z-index:2;
+  background:#fff;padding:1.25rem;border-radius:var(--radius);
+  box-shadow:var(--shadow-md);display:flex;gap:1rem;align-items:center;
+}
+.about-badge .icon{
+  width:50px;height:50px;border-radius:10px;background:var(--accent);
+  display:grid;place-items:center;color:#fff;flex-shrink:0;
+}
+.about-badge h4{font-family:'Inter',sans-serif;font-size:1rem;color:var(--primary-dark);margin-bottom:.15rem}
+.about-badge p{font-size:.85rem;color:var(--text-muted);margin:0}
+.about-text h2{margin-bottom:1rem}
+.about-text > p{color:var(--text-muted);margin-bottom:1rem}
+.about-features{list-style:none;margin-top:1.5rem}
+.about-features li{display:flex;gap:.75rem;margin-bottom:1rem;align-items:flex-start}
+.about-features .check{
+  width:24px;height:24px;border-radius:50%;background:rgba(22,163,74,.12);
+  color:var(--success);display:grid;place-items:center;flex-shrink:0;margin-top:2px;
+}
+
+/* ---------- Services ---------- */
+.services{background:var(--bg-alt)}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.75rem}
+.service-card{
+  background:#fff;padding:2rem;border-radius:var(--radius-lg);
+  border:1px solid var(--border);transition:var(--transition);position:relative;overflow:hidden;
+}
+.service-card::before{
+  content:'';position:absolute;top:0;left:0;width:100%;height:4px;
+  background:linear-gradient(90deg,var(--primary),var(--accent));
+  transform:scaleX(0);transform-origin:left;transition:var(--transition);
+}
+.service-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg);border-color:transparent}
+.service-card:hover::before{transform:scaleX(1)}
+.service-icon{
+  width:60px;height:60px;border-radius:14px;
+  background:linear-gradient(135deg,var(--primary),var(--primary-dark));
+  display:grid;place-items:center;color:#fff;margin-bottom:1.25rem;
+}
+.service-card p{color:var(--text-muted);font-size:.95rem}
+
+/* ---------- Compliance Section ---------- */
+.compliance{background:linear-gradient(135deg,#f0f9ff,#e0f2fe);padding:4rem 0}
+.compliance-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem}
+.compliance-card{
+  background:#fff;padding:2rem;border-radius:var(--radius-lg);
+  border:2px solid var(--border);text-align:center;transition:var(--transition);
+}
+.compliance-card:hover{border-color:var(--primary);box-shadow:var(--shadow-md);transform:translateY(-4px)}
+.compliance-icon{
+  width:70px;height:70px;border-radius:50%;
+  background:linear-gradient(135deg,var(--success),#15803d);
+  display:grid;place-items:center;color:#fff;margin:0 auto 1.25rem;
+  box-shadow:0 8px 20px rgba(22,163,74,.25);
+}
+.compliance-card h3{font-size:1.15rem;margin-bottom:.5rem}
+.compliance-card p{color:var(--text-muted);font-size:.9rem;margin-bottom:1rem}
+.compliance-card .license-num{
+  display:inline-block;background:var(--bg-alt);padding:.5rem 1rem;
+  border-radius:8px;font-family:monospace;font-size:.85rem;color:var(--primary);
+  border:1px solid var(--border);font-weight:600;
+}
+
+/* ---------- Process ---------- */
+.process-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;position:relative}
+.process-step{
+  text-align:center;padding:2rem 1.5rem;background:#fff;
+  border-radius:var(--radius-lg);border:1px solid var(--border);
+  position:relative;transition:var(--transition);
+}
+.process-step:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+.step-num{
+  width:50px;height:50px;border-radius:50%;
+  background:var(--accent);color:#fff;font-weight:700;font-size:1.25rem;
+  display:grid;place-items:center;margin:0 auto 1rem;
+  box-shadow:0 4px 12px rgba(212,160,23,.3);
+}
+.process-step h3{font-size:1.1rem}
+.process-step p{color:var(--text-muted);font-size:.9rem}
+
+/* ---------- Destinations ---------- */
+.destinations{background:linear-gradient(135deg,var(--primary-dark),var(--primary));color:#fff}
+.destinations h2,.destinations .section-head p{color:#fff}
+.destinations .section-head p{color:rgba(255,255,255,.8)}
+.dest-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1.25rem}
+.dest-card{
+  background:rgba(255,255,255,.08);backdrop-filter:blur(10px);
+  border:1px solid rgba(255,255,255,.15);border-radius:var(--radius);
+  padding:1.75rem 1.25rem;text-align:center;transition:var(--transition);
+}
+.dest-card:hover{background:rgba(255,255,255,.15);transform:translateY(-4px)}
+.dest-flag{font-size:2.5rem;margin-bottom:.5rem}
+.dest-card h3{color:#fff;font-size:1.1rem;margin-bottom:.25rem}
+.dest-card p{color:rgba(255,255,255,.75);font-size:.85rem}
+
+/* ---------- Worker Rights ---------- */
+.worker-rights{background:var(--bg-alt)}
+.rights-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem}
+.right-card{
+  background:#fff;padding:1.75rem;border-radius:var(--radius-lg);
+  border-left:4px solid var(--success);box-shadow:var(--shadow-sm);
+}
+.right-card h3{font-size:1.1rem;margin-bottom:.5rem;color:var(--success)}
+.right-card p{color:var(--text-muted);font-size:.9rem}
+
+/* ---------- Audience Tabs ---------- */
+.audience-tabs{display:flex;justify-content:center;gap:.5rem;margin-bottom:2.5rem;flex-wrap:wrap}
+.tab-btn{
+  padding:.75rem 1.75rem;border-radius:50px;font-weight:600;
+  background:var(--bg-alt);color:var(--text-muted);transition:var(--transition);
+  border:2px solid transparent;
+}
+.tab-btn.active{background:var(--primary);color:#fff;box-shadow:var(--shadow-sm)}
+.tab-panel{display:none;animation:fade .4s ease}
+.tab-panel.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.audience-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem}
+.audience-card{
+  background:#fff;padding:2rem;border-radius:var(--radius-lg);
+  border:1px solid var(--border);transition:var(--transition);
+}
+.audience-card:hover{border-color:var(--primary);box-shadow:var(--shadow-md)}
+.audience-card .icon{
+  width:50px;height:50px;border-radius:12px;background:rgba(11,61,145,.1);
+  color:var(--primary);display:grid;place-items:center;margin-bottom:1rem;
+}
+.audience-card p{color:var(--text-muted);font-size:.95rem}
+
+/* ---------- Testimonials ---------- */
+.testimonials{background:var(--bg-alt)}
+.testi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.75rem}
+.testi-card{
+  background:#fff;padding:2rem;border-radius:var(--radius-lg);
+  box-shadow:var(--shadow-sm);position:relative;
+}
+.testi-card::before{
+  content:'"';position:absolute;top:-10px;left:20px;
+  font-family:'Playfair Display',serif;font-size:5rem;color:var(--accent);
+  line-height:1;
+}
+.testi-text{color:var(--text);margin:1rem 0 1.5rem;font-style:italic}
+.testi-author{display:flex;align-items:center;gap:.85rem}
+.testi-avatar{
+  width:50px;height:50px;border-radius:50%;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  display:grid;place-items:center;color:#fff;font-weight:700;
+}
+.testi-author h4{font-family:'Inter',sans-serif;font-size:.95rem;margin-bottom:.1rem}
+.testi-author p{font-size:.8rem;color:var(--text-muted);margin:0}
+.stars{color:var(--accent);font-size:.9rem;letter-spacing:2px}
+
+/* ---------- FAQ ---------- */
+.faq-wrap{max-width:800px;margin:0 auto}
+.faq-item{
+  background:#fff;border:1px solid var(--border);border-radius:var(--radius);
+  margin-bottom:1rem;overflow:hidden;transition:var(--transition);
+}
+.faq-item.open{border-color:var(--primary);box-shadow:var(--shadow-sm)}
+.faq-q{
+  width:100%;padding:1.25rem 1.5rem;text-align:left;
+  display:flex;justify-content:space-between;align-items:center;gap:1rem;
+  font-weight:600;font-size:1rem;color:var(--text);
+}
+.faq-q .plus{
+  width:28px;height:28px;border-radius:50%;background:var(--bg-alt);
+  display:grid;place-items:center;transition:var(--transition);flex-shrink:0;
+  color:var(--primary);
+}
+.faq-item.open .plus{background:var(--primary);color:#fff;transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease;color:var(--text-muted)}
+.faq-a-inner{padding:0 1.5rem 1.25rem}
+
+/* ---------- CTA Banner ---------- */
+.cta-banner{
+  background:linear-gradient(135deg,var(--accent),var(--accent-dark));
+  color:#fff;text-align:center;padding:4rem 0;
+}
+.cta-banner h2{color:#fff;margin-bottom:1rem}
+.cta-banner p{color:rgba(255,255,255,.9);margin-bottom:2rem;max-width:600px;margin-left:auto;margin-right:auto}
+.cta-banner .btn-primary{background:var(--primary-dark)}
+
+/* ---------- Contact ---------- */
+.contact-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:3rem}
+.contact-info h3{font-size:1.5rem;margin-bottom:1rem}
+.contact-info > p{color:var(--text-muted);margin-bottom:2rem}
+.contact-item{display:flex;gap:1rem;margin-bottom:1.5rem;align-items:flex-start}
+.contact-item .icon{
+  width:46px;height:46px;border-radius:12px;background:rgba(11,61,145,.1);
+  color:var(--primary);display:grid;place-items:center;flex-shrink:0;
+}
+.contact-item h4{font-family:'Inter',sans-serif;font-size:.95rem;margin-bottom:.2rem}
+.contact-item p,.contact-item a{color:var(--text-muted);font-size:.9rem}
+.contact-item a:hover{color:var(--primary)}
+.contact-form{
+  background:#fff;padding:2.5rem;border-radius:var(--radius-lg);
+  border:1px solid var(--border);box-shadow:var(--shadow-sm);
+}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.form-group{margin-bottom:1.25rem}
+.form-group label{display:block;font-weight:500;font-size:.9rem;margin-bottom:.4rem;color:var(--text)}
+.form-group input,.form-group select,.form-group textarea{
+  width:100%;padding:.85rem 1rem;border:1.5px solid var(--border);
+  border-radius:var(--radius);font-family:inherit;font-size:.95rem;
+  transition:var(--transition);background:#fff;
+}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{
+  outline:none;border-color:var(--primary);box-shadow:0 0 0 3px rgba(11,61,145,.1);
+}
+.form-group textarea{resize:vertical;min-height:120px}
+.form-msg{padding:.85rem;border-radius:var(--radius);margin-top:1rem;display:none;font-size:.9rem}
+.form-msg.success{background:rgba(22,163,74,.1);color:var(--success);display:block}
+
+/* ---------- Footer ---------- */
+.footer{background:#0a1a33;color:#b8c2d6;padding:4rem 0 1.5rem}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.5fr;gap:2.5rem;margin-bottom:3rem}
+.footer h4{color:#fff;font-family:'Inter',sans-serif;font-size:1rem;margin-bottom:1.25rem}
+.footer-about p{font-size:.9rem;margin:1rem 0 1.5rem;line-height:1.7}
+.footer-links{list-style:none}
+.footer-links li{margin-bottom:.6rem}
+.footer-links a{font-size:.9rem;transition:var(--transition)}
+.footer-links a:hover{color:var(--accent);padding-left:4px}
+.social{display:flex;gap:.75rem}
+.social a{
+  width:38px;height:38px;border-radius:10px;background:rgba(255,255,255,.08);
+  display:grid;place-items:center;transition:var(--transition);
+}
+.social a:hover{background:var(--accent);color:#fff;transform:translateY(-2px)}
+.newsletter input{
+  width:100%;padding:.75rem 1rem;border-radius:var(--radius);
+  border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);
+  color:#fff;font-family:inherit;margin-bottom:.75rem;
+}
+.newsletter input::placeholder{color:#7a8599}
+.newsletter input:focus{outline:none;border-color:var(--accent)}
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,.1);padding-top:1.5rem;
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;
+  font-size:.85rem;color:#7a8599;
+}
+.license-badges{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1rem}
+.license-badges span{
+  background:rgba(255,255,255,.08);padding:.4rem .8rem;
+  border-radius:6px;font-size:.75rem;border:1px solid rgba(255,255,255,.1);
+}
+.legal-disclaimer{
+  background:rgba(255,255,255,.03);padding:1.5rem;border-radius:var(--radius);
+  margin-top:2rem;font-size:.8rem;line-height:1.7;color:#7a8599;
+  border:1px solid rgba(255,255,255,.05);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 960px){
+  .about-grid,.contact-grid{grid-template-columns:1fr;gap:2.5rem}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:2rem}
+}
+@media (max-width: 768px){
+  section{padding:3.5rem 0}
+  .nav-links{
+    position:fixed;top:70px;left:0;right:0;
+    background:#fff;flex-direction:column;padding:1.5rem;gap:1.25rem;
+    box-shadow:var(--shadow-md);transform:translateY(-150%);transition:var(--transition);
+  }
+  .nav-links.open{transform:translateY(0)}
+  .nav-cta .btn-outline{display:none}
+  .menu-toggle{display:flex}
+  .hero{min-height:auto;padding:4rem 0}
+  .form-row{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .topbar-info{font-size:.75rem;gap:.75rem}
+  .license-banner-inner{font-size:.8rem;gap:.75rem}
+}
+@media (max-width: 480px){
+  .hero-cta{flex-direction:column;align-items:stretch}
+  .hero-cta .btn{justify-content:center}
+  .contact-form{padding:1.5rem}
+}
+</style>
+</head>
+<body>
+
+<!-- License Banner -->
+<div class="license-banner">
+  <div class="container license-banner-inner">
+    <div class="badge-item">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L3 7v6c0 5 3.5 9 9 11 5.5-2 9-6 9-11V7l-9-5z"/></svg>
+      Fully Licensed & Regulated
+    </div>
+    <div class="badge-item">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9 12l2 2 4-4"/></svg>
+      MoLS License #AT/01234/2012
+    </div>
+    <div class="badge-item">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      ISO 9001:2015 Certified
+    </div>
+  </div>
+</div>
+
+<!-- Top Bar -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div class="topbar-info">
+      <span>📞 +251 11 555 0123</span>
+      <span>✉️ info@afrotalent.com</span>
+      <span class="topbar-license">🏛️ Licensed Agency</span>
+    </div>
+    <div class="topbar-info">
+      <span>🕐 Mon–Sat: 8:30 AM – 6:00 PM (EAT)</span>
+      <span>🌍 EN | አማ</span>
+    </div>
+  </div>
+</div>
+
+<!-- Navigation -->
+<nav class="nav">
+  <div class="container nav-inner">
+    <a href="#" class="logo">
+      <span class="logo-mark">AT</span>
+      AfroTalent
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#compliance">Licensing</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#rights">Worker Rights</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#contact" class="btn btn-outline" style="color:var(--primary);border-color:var(--primary)">Request Quote</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header class="hero" id="home">
+  <div class="container">
+    <div class="hero-content">
+      <div class="badge"><span class="dot"></span> Licensed by Ethiopian Ministry of Labor & Skills · Since 2012</div>
+      <h1>Trusted Recruitment of <span>Ethiopian Domestic Workers</span> to the Middle East</h1>
+      <p>We connect reputable households and agencies in the GCC with carefully vetted, professionally trained Ethiopian house maids, nannies, and caregivers — delivered with full legal compliance and ethical standards.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-accent">Request a Worker →</a>
+        <a href="#compliance" class="btn btn-outline">View Our Licenses</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><div class="num">12K+</div><div class="lbl">Workers Placed</div></div>
+        <div class="hero-stat"><div class="num">6</div><div class="lbl">GCC Countries</div></div>
+        <div class="hero-stat"><div class="num">98%</div><div class="lbl">Client Satisfaction</div></div>
+        <div class="hero-stat"><div class="num">13+</div><div class="lbl">Years Experience</div></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Trust Bar -->
+<section class="trust" style="padding:2rem 0">
+  <div class="container trust-inner">
+    <div class="trust-item">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L3 7v6c0 5 3.5 9 9 11 5.5-2 9-6 9-11V7l-9-5z"/></svg>
+      MoLS Licensed Agency
+    </div>
+    <div class="trust-item">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9 12l2 2 4-4"/></svg>
+      ISO 9001:2015 Certified
+    </div>
+    <div class="trust-item">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+      Ethical Recruitment
+    </div>
+    <div class="trust-item">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+      Transparent Fees
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img">
+        <div class="about-badge">
+          <div class="icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <div>
+            <h4>13+ Years of Excellence</h4>
+            <p>Serving families across the GCC since 2012</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="eyebrow" style="color:var(--accent-dark);font-weight:600;text-transform:uppercase;letter-spacing:2px;font-size:.8rem">About Our Agency</span>
+        <h2>Bridging Ethiopia and the Middle East with Integrity</h2>
+        <p>AfroTalent is a fully licensed overseas employment agency headquartered in Addis Ababa, Ethiopia. We specialize in the ethical recruitment, training, and deployment of domestic workers to households and agencies across Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, and Oman.</p>
+        <p>Every candidate we place undergoes rigorous background verification, medical screening, language training, and cultural orientation — ensuring a smooth, successful placement for both worker and employer.</p>
+        <ul class="about-features">
+          <li><span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><div><strong>Verified Candidates</strong> — Full identity, criminal, and reference checks</div></li>
+          <li><span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><div><strong>Professional Training</strong> — Housekeeping, childcare, cooking, elder care</div></li>
+          <li><span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><div><strong>Post-Placement Support</strong> — 24/7 assistance for workers and employers</div></li>
+          <li><span class="check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span><div><strong>Legal Compliance</strong> — Full adherence to Ethiopian & GCC labor laws</div></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Compliance & Licensing -->
+<section class="compliance" id="compliance">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Licensing & Compliance</span>
+      <h2>Fully Licensed & Regulated Agency</h2>
+      <p>We operate with complete transparency and hold all required licenses and certifications from Ethiopian and international authorities.</p>
+    </div>
+    <div class="compliance-grid">
+      <div class="compliance-card">
+        <div class="compliance-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L3 7v6c0 5 3.5 9 9 11 5.5-2 9-6 9-11V7l-9-5z"/></svg>
+        </div>
+        <h3>Ethiopian Ministry of Labor & Skills</h3>
+        <p>Fully licensed overseas employment agency authorized to recruit and deploy workers internationally.</p>
+        <div class="license-num">License #EG/01234/2012</div>
+      </div>
+      <div class="compliance-card">
+        <div class="compliance-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <h3>ISO 9001:2015 Certified</h3>
+        <p>International quality management certification ensuring consistent, high-standard recruitment services.</p>
+        <div class="license-num">Certificate #ISO-9001-EG-2024</div>
+      </div>
+      <div class="compliance-card">
+        <div class="compliance-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6v6H9z"/></svg>
+        </div>
+        <h3>GCC Country Approvals</h3>
+        <p>Approved recruitment partner for Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, and Oman.</p>
+        <div class="license-num">Multi-Country Authorization</div>
+      </div>
+      <div class="compliance-card">
+        <div class="compliance-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        </div>
+        <h3>Business Registration</h3>
+        <p>Registered private limited company under Ethiopian Commercial Code.</p>
+        <div class="license-num">TIN: 0012345678 · VAT: 0098765432</div>
+      </div>
+      <div class="compliance-card">
+        <div class="compliance-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3>Worker Protection Compliance</h3>
+        <p>Full compliance with ILO standards and Ethiopian worker protection directives.</p>
+        <div class="license-num">ILO Standards Compliant</div>
+      </div>
+      <div class="compliance-card">
+        <div class="compliance-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+        </div>
+        <h3>Financial Guarantees</h3>
+        <p>Bank guarantee deposited with Ministry of Labor for worker protection and contract fulfillment.</p>
+        <div class="license-num">Bank Guarantee Active</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">What We Offer</span>
+      <h2>End-to-End Recruitment Services</h2>
+      <p>From candidate sourcing to post-arrival support, we manage every step of the deployment process with professionalism and care.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></div>
+        <h3>House Maids</h3>
+        <p>Experienced, reliable domestic helpers trained in cleaning, laundry, cooking, and household management for families across the GCC.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12h6M12 9v6M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+        <h3>Nannies & Childcare</h3>
+        <p>Caring, patient nannies with verified experience in infant care, early childhood development, and child safety.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg></div>
+        <h3>Elderly Caregivers</h3>
+        <p>Compassionate caregivers trained in elderly assistance, mobility support, medication reminders, and companionship.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+        <h3>Visa & Documentation</h3>
+        <p>Complete handling of work visas, medical tests, embassy attestation, flight bookings, and all legal paperwork.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg></div>
+        <h3>Training Academy</h3>
+        <p>In-house training covering Arabic/English basics, cultural orientation, housekeeping standards, and workplace ethics.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
+        <h3>24/7 Support</h3>
+        <p>Dedicated case managers and a multilingual helpline for workers and employers — before, during, and after deployment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Worker Rights -->
+<section class="worker-rights" id="rights">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Worker Protection</span>
+      <h2>Guaranteed Rights & Protections</h2>
+      <p>We ensure every worker is fully informed of their rights and protected throughout their employment contract.</p>
+    </div>
+    <div class="rights-grid">
+      <div class="right-card">
+        <h3>✓ Legal Employment Contract</h3>
+        <p>Bilingual contract (English/Arabic) clearly stating salary, working hours, rest days, and benefits — registered with authorities.</p>
+      </div>
+      <div class="right-card">
+        <h3>✓ Timely Salary Payment</h3>
+        <p>Guaranteed monthly salary payment as per contract, with full transparency on any deductions. No hidden fees.</p>
+      </div>
+      <div class="right-card">
+        <h3>✓ Proper Accommodation</h3>
+        <p>Private, clean, and safe living space with adequate food and basic amenities as specified in the employment contract.</p>
+      </div>
+      <div class="right-card">
+        <h3>✓ Medical Care</h3>
+        <p>Full medical insurance coverage and access to healthcare services throughout the contract period.</p>
+      </div>
+      <div class="right-card">
+        <h3>✓ Rest Days & Leave</h3>
+        <p>Minimum one rest day per week and 30 days paid annual leave as per GCC labor laws and contract terms.</p>
+      </div>
+      <div class="right-card">
+        <h3>✓ 24/7 Emergency Support</h3>
+        <p>Access to our multilingual helpline and local welfare officers for any issues — personal, professional, or legal.</p>
+      </div>
+      <div class="right-card">
+        <h3>✓ Freedom of Communication</h3>
+        <p>Right to keep passport copies (employer holds original only with worker's consent), use phone, and communicate with family.</p>
+      </div>
+      <div class="right-card">
+        <h3>✓ Repatriation Guarantee</h3>
+        <p>Return flight ticket to Ethiopia at the end of contract or in case of contract termination by employer.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Process -->
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">How It Works</span>
+      <h2>Our Simple 5-Step Process</h2>
+      <p>A transparent, streamlined journey from your first inquiry to the successful arrival of your domestic worker.</p>
+    </div>
+    <div class="process-grid">
+      <div class="process-step"><div class="step-num">1</div><h3>Inquiry</h3><p>Submit your requirements through our form, WhatsApp, or by visiting our office.</p></div>
+      <div class="process-step"><div class="step-num">2</div><h3>Matching</h3><p>We shortlist suitable candidates based on your needs and share profiles with you.</p></div>
+      <div class="process-step"><div class="step-num">3</div><h3>Interview</h3><p>Conduct video or in-person interviews with your preferred candidates.</p></div>
+      <div class="process-step"><div class="step-num">4</div><h3>Processing</h3><p>We handle contracts, visas, medicals, training, and flight arrangements.</p></div>
+      <div class="process-step"><div class="step-num">5</div><h3>Arrival</h3><p>Your worker arrives ready to start — with ongoing support from our team.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Destinations -->
+<section class="destinations" id="destinations">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" style="color:var(--accent)">Where We Deploy</span>
+      <h2>Serving All GCC Nations</h2>
+      <p>We have established partnerships with licensed agencies and direct employers across the Gulf region.</p>
+    </div>
+    <div class="dest-grid">
+      <div class="dest-card"><div class="dest-flag">🇸🇦</div><h3>Saudi Arabia</h3><p>Riyadh · Jeddah · Dammam</p></div>
+      <div class="dest-card"><div class="dest-flag">🇦🇪</div><h3>UAE</h3><p>Dubai · Abu Dhabi · Sharjah</p></div>
+      <div class="dest-card"><div class="dest-flag">🇶🇦</div><h3>Qatar</h3><p>Doha · Al Rayyan</p></div>
+      <div class="dest-card"><div class="dest-flag">🇰🇼</div><h3>Kuwait</h3><p>Kuwait City · Hawalli</p></div>
+      <div class="dest-card"><div class="dest-flag">🇧🇭</div><h3>Bahrain</h3><p>Manama · Muharraq</p></div>
+      <div class="dest-card"><div class="dest-flag">🇴🇲</div><h3>Oman</h3><p>Muscat · Salalah</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Audience Tabs -->
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Tailored Solutions</span>
+      <h2>Who We Serve</h2>
+      <p>Whether you're an employer seeking a trusted household helper or a candidate looking for safe overseas employment, we're here for you.</p>
+    </div>
+    <div class="audience-tabs">
+      <button class="tab-btn active" data-tab="employers">For Employers</button>
+      <button class="tab-btn" data-tab="workers">For Workers</button>
+      <button class="tab-btn" data-tab="agencies">For Partner Agencies</button>
+    </div>
+
+    <div class="tab-panel active" id="employers">
+      <div class="audience-grid">
+        <div class="audience-card"><div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg></div><h3>Direct Households</h3><p>Families receive fully vetted, trained workers with transparent contracts and replacement guarantees.</p></div>
+        <div class="audience-card"><div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6v6H9z"/></svg></div><h3>Custom Profiles</h3><p>Choose by experience, language skills, age, religion, and specific household needs.</p></div>
+        <div class="audience-card"><div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><h3>Fast Deployment</h3><p>Average processing time of 4–8 weeks from selection to arrival at your doorstep.</p></div>
+        <div class="audience-card"><div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/></svg></div><h3>Replacement Guarantee</h3><p>Free replacement within the probation period if the placement doesn't meet expectations.</p></div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="workers">
+      <div class="audience-grid">
+        <div class="audience-card"><div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L3 7v6c0 5 3.5 9 9 11 5.5-2 9-6 9-11V7l-9-5z"/></svg></div><h3>Safe & Legal</h3><p>100% legal employment with proper contracts registered with Ethiopian and destination-country authorities.</p></div>
+        <div class="audience-card"><div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div><h3>Free Training</h3><p>Comprehensive pre-departure training at no cost — including language, culture, and job skills.</p></div>
+        <div class="audience-card"><div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div><h3>Fair Wages</h3><p>Guaranteed salary as per contract, paid on time, with full transparency on deductions.</p></div>
+        <div class="audience-card"><div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><h3>Ongoing Support</h3><p>Access to our 24/7 helpline and local welfare officers throughout your contract.</p></div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="agencies">
+      <div class="audience-grid">
+        <div class="audience-card"><div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><h3>Bulk Supply</h3><p>Reliable, high-volume supply of trained candidates for GCC-based recruitment agencies.</p></div>
+        <div class="audience-card"><div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/></svg></div><h3>MOU Partnerships</h3><p>Formal agreements with clear terms, SLAs, and dedicated account managers.</p></div>
+        <div class="audience-card"><div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/></svg></div><h3>Fast Turnaround</h3><p>Predictable timelines and priority processing for our long-term agency partners.</p></div>
+        <div class="audience-card"><div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/></svg></div><h3>Global Reach</h3><p>Access to candidates from all regions of Ethiopia — Addis Ababa, Oromia, Amhara, SNNPR, and more.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Client Stories</span>
+      <h2>Trusted by Families & Agencies</h2>
+      <p>Hear from employers and workers who have experienced our commitment to quality and care.</p>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p class="testi-text">"We've been working with AfroTalent for three years. Their candidates are well-trained, respectful, and integrate smoothly into our household. Highly professional agency."</p>
+        <div class="testi-author"><div class="testi-avatar">AM</div><div><h4>Ahmed Al-Mansouri</h4><p>Employer · Dubai, UAE</p></div></div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p class="testi-text">"Thanks to AfroTalent, I found a safe, legal job in Riyadh. The training prepared me well, and their support team always checks on me. I can now support my family back home."</p>
+        <div class="testi-author"><div class="testi-avatar">TH</div><div><h4>Tigist Haile</h4><p>Domestic Worker · Riyadh, KSA</p></div></div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p class="testi-text">"As a partner agency in Kuwait, we rely on their consistent quality and transparent documentation. They deliver on time, every time. A truly trustworthy partner."</p>
+        <div class="testi-author"><div class="testi-avatar">FK</div><div><h4>Fahad Al-Khaled</h4><p>Partner Agency · Kuwait City</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Questions</span>
+      <h2>Frequently Asked Questions</h2>
+      <p>Find quick answers to the most common questions from employers and workers.</p>
+    </div>
+    <div class="faq-wrap">
+      <div class="faq-item">
+        <button class="faq-q">How long does the recruitment process take?<span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">From the moment you select a candidate, the full process — including contract signing, medical tests, visa processing, training, and flight booking — typically takes 4 to 8 weeks depending on the destination country.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Are your workers legally documented?<span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes. Every worker is deployed with a valid work visa, authenticated employment contract, and all required medical and police clearances, in full compliance with Ethiopian Ministry of Labor regulations and destination-country laws.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What training do workers receive before departure?<span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Our 3–6 week pre-departure program covers language basics (Arabic/English), cultural orientation, housekeeping, cooking, childcare, elderly care, workplace ethics, and workers' rights and responsibilities.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What if the worker doesn't meet my expectations?<span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">We offer a replacement guarantee during the probation period (typically 3 months). If the placement isn't working, we'll provide a suitable replacement at no additional recruitment cost.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How are worker salaries and contracts handled?<span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">All salaries, working hours, rest days, and benefits are clearly outlined in a bilingual contract signed by the worker, employer, and our agency — and registered with relevant authorities. Salaries are paid directly to the worker as agreed.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Do you support workers during their contract?<span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Absolutely. We maintain a 24/7 multilingual helpline and have welfare officers in each destination country to support workers with any issues — personal, professional, or legal — throughout their contract.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Can I verify your agency's license?<span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes. Our Ethiopian Ministry of Labor & Skills license number is EG/01234/2012. You can verify this directly with the Ministry or request to see our original license documents at our office. We also hold ISO 9001:2015 certification (Certificate #ISO-9001-EG-2024).</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Banner -->
+<section class="cta-banner">
+  <div class="container">
+    <h2>Ready to Find the Right Domestic Worker?</h2>
+    <p>Get in touch today for a free consultation. Our team will guide you through every step of the process.</p>
+    <a href="#contact" class="btn btn-primary">Start Your Request →</a>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Get In Touch</span>
+      <h2>Contact Our Team</h2>
+      <p>Reach out for inquiries, partnerships, or worker applications. We respond within 24 hours.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Let's Start a Conversation</h3>
+        <p>Whether you're an employer, partner agency, or prospective worker, we're here to help. Choose the channel that works best for you.</p>
+        <div class="contact-item">
+          <div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><h4>Head Office</h4><p>Bole Road, Kirkos Sub-City<br>Addis Ababa, Ethiopia</p></div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg></div>
+          <div><h4>Phone</h4><a href="tel:+251115550123">+251 11 555 0123</a><br><a href="tel:+251911223344">+251 911 223 344 (WhatsApp)</a></div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <div><h4>Email</h4><a href="mailto:info@afrotalent.com">info@afrotalent.com</a><br><a href="mailto:recruitment@afrotalent.com">recruitment@afrotalent.com</a></div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <div><h4>Working Hours</h4><p>Monday – Saturday: 8:30 AM – 6:00 PM (EAT)<br>Sunday: Closed</p></div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group"><label>Full Name *</label><input type="text" name="name" required placeholder="Your full name"></div>
+          <div class="form-group"><label>Phone *</label><input type="tel" name="phone" required placeholder="+971 50 000 0000"></div>
+        </div>
+        <div class="form-group"><label>Email *</label><input type="email" name="email" required placeholder="you@example.com"></div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>I am a… *</label>
+            <select name="role" required>
+              <option value="">Select one</option>
+              <option>Employer (Household)</option>
+              <option>Partner Agency (GCC)</option>
+              <option>Prospective Worker</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Destination Country</label>
+            <select name="country">
+              <option value="">Select country</option>
+              <option>Saudi Arabia</option><option>UAE</option><option>Qatar</option>
+              <option>Kuwait</option><option>Bahrain</option><option>Oman</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group"><label>Message</label><textarea name="message" placeholder="Tell us about your requirements, number of workers needed, timeline, etc."></textarea></div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Send Inquiry →</button>
+        <div class="form-msg" id="formMsg">✓ Thank you! Your inquiry has been received. Our team will contact you within 24 hours.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a href="#" class="logo" style="color:#fff">
+          <span class="logo-mark">ET</span>
+          Afrotalent
+        </a>
+        <p>A fully licensed Ethiopian overseas employment agency specializing in the ethical recruitment and deployment of domestic workers to the Middle East since 2012.</p>
+        <div class="social">
+          <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 2a2 2 0 110 4 2 2 0 010-4z"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.3 5.2 4.6.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 00-8.5 15.3L2 22l4.8-1.5A10 10 0 1012 2z"/></svg></a>
+        </div>
+        <div class="license-badges">
+          <span>🏛️ MoLS License #EG/01234/2012</span>
+          <span>✓ ISO 9001:2015 Certified</span>
+          <span>🇪🇹 Ethiopian Registered Company</span>
+        </div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#compliance">Licensing</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#rights">Worker Rights</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="#">House Maids</a></li>
+          <li><a href="#">Nannies</a></li>
+          <li><a href="#">Caregivers</a></li>
+          <li><a href="#">Visa Processing</a></li>
+          <li><a href="#">Training Academy</a></li>
+        </ul>
+      </div>
+      <div class="newsletter">
+        <h4>Stay Updated</h4>
+        <p style="font-size:.9rem;margin-bottom:1rem">Subscribe for recruitment news and updates.</p>
+        <form onsubmit="event.preventDefault();this.querySelector('input').value='';alert('Subscribed!');">
+          <input type="email" placeholder="Your email address" required>
+          <button type="submit" class="btn btn-accent" style="width:100%;justify-content:center">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="legal-disclaimer">
+      <strong>Legal Disclaimer:</strong> AfroTalent PLC is a fully licensed overseas employment agency under the laws of the Federal Democratic Republic of Ethiopia. License Number: EG/01234/2012 issued by the Ministry of Labor & Skills. All recruitment activities comply with Ethiopian Proclamation No. 1258/2021 on Overseas Employment and destination-country labor laws. We do not charge workers any recruitment fees. All contracts are registered with relevant authorities. For verification of our license, contact the Ethiopian Ministry of Labor & Skills directly.
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 AfroTalent PLC. All rights reserved. · TIN: 0012345678 · VAT: 0098765432</div>
+      <div><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a> · <a href="#">Worker Rights Charter</a> · <a href="#">Complaint Mechanism</a></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Mobile menu
+const toggle=document.getElementById('menuToggle');
+const links=document.getElementById('navLinks');
+toggle.addEventListener('click',()=>links.classList.toggle('open'));
+document.querySelectorAll('.nav-links a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));
+
+// Tabs
+document.querySelectorAll('.tab-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.tab).classList.add('active');
+  });
+});
+
+// FAQ accordion
+document.querySelectorAll('.faq-q').forEach(q=>{
+  q.addEventListener('click',()=>{
+    const item=q.parentElement;
+    const ans=item.querySelector('.faq-a');
+    const isOpen=item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i=>{
+      i.classList.remove('open');
+      i.querySelector('.faq-a').style.maxHeight=null;
+    });
+    if(!isOpen){
+      item.classList.add('open');
+      ans.style.maxHeight=ans.scrollHeight+'px';
+    }
+  });
+});
+
+// Contact form
+document.getElementById('contactForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  document.getElementById('formMsg').classList.add('success');
+  e.target.reset();
+  setTimeout(()=>document.getElementById('formMsg').classList.remove('success'),6000);
+});
+
+// Scroll reveal
+const io=new IntersectionObserver(entries=>{
+  entries.forEach(en=>{
+    if(en.isIntersecting){en.target.style.opacity=1;en.target.style.transform='translateY(0)';}
+  });
+},{threshold:.1});
+document.querySelectorAll('.service-card,.process-step,.dest-card,.audience-card,.testi-card,.faq-item,.compliance-card,.right-card').forEach(el=>{
+  el.style.opacity=0;el.style.transform='translateY(20px)';el.style.transition='opacity .6s ease, transform .6s ease';
+  io.observe(el);
+});
+</script>
+</body>
+</html>
+
